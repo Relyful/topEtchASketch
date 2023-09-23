@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.drawArea {
+    width: 1001px;
+    height: 1001px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+}
+
+.container {    
+    display: flex;
+    flex-direction: column;
+}
+
+.buttDiv {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.gameArea {
+    display: flex;
+    justify-content: center;
+}
