@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: bisque;
+    background-color: #EDDEA4;
+    font-family: 'Mooli', sans-serif;
 }
 
 .header {
@@ -31,6 +32,7 @@ body {
 
 .buttDiv {
     display: flex;
+    flex-direction: column;
     align-items:center ;
     justify-content: center;
     margin-right: 50px;
@@ -39,4 +41,13 @@ body {
 .gameArea {
     display: flex;
     justify-content: center;
+    margin-right: 10%;
+}
+
+.buttonko, .random, .gray {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid #F7A072;
+    margin: 15px;
+    background-color: #B5E2FA;
 }
