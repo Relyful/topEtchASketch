@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: bisque;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -17,6 +21,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     border: solid black 1px;
+    background-color: white;
 }
 
 .container {    
