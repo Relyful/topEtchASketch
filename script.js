@@ -23,7 +23,7 @@ function drawGrid() {
     
     for (let i = 0; i < divAmmount; i++) {
         const newDiv = document.createElement('div');
-        let calcSize = 1000/userSize;
+        let calcSize = 800/userSize;
         newDiv.style.height = `${calcSize}px`;
         newDiv.style.width = `${calcSize}px`;
         newDiv.classList.add('drawBox');   

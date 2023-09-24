@@ -12,8 +12,8 @@ html {
 }
 
 .drawArea {
-    width: 1001px;
-    height: 1001px;
+    width: 801px;
+    height: 801px;
     display: flex;
     flex-wrap: wrap;
     border: solid black 1px;
