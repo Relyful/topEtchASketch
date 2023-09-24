@@ -12,8 +12,8 @@ html {
 }
 
 .drawArea {
-    width: 801px;
-    height: 801px;
+    width: 802px;
+    height: 802px;
     display: flex;
     flex-wrap: wrap;
     border: solid black 1px;
@@ -28,6 +28,7 @@ html {
     display: flex;
     align-items:center ;
     justify-content: center;
+    margin-right: 50px;
 }
 
 .gameArea {
